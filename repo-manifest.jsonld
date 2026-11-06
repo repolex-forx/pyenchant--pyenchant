@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/pyenchant/pyenchant/commit/c145b62454369e5bbc1145850951f06290d4f8c1",
       "git:hexsha": "c145b62454369e5bbc1145850951f06290d4f8c1",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T02:36:03.728903+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pyenchant/pyenchant/commit/5a6f6c67935d186fc528e077554138ad38216cd0",
