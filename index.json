@@ -1,0 +1,11 @@
+{
+  "org": "pyenchant",
+  "repo": "pyenchant",
+  "versions": [
+    {
+      "commit": "c145b62454369e5bbc1145850951f06290d4f8c1",
+      "tag": "",
+      "parsed_at": "2026-11-06T02:36:03.729727+00:00"
+    }
+  ]
+}
