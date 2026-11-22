@@ -3,6 +3,11 @@
   "repo": "pyenchant",
   "versions": [
     {
+      "commit": "f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99",
+      "tag": "v3.3.0",
+      "parsed_at": "2026-11-22T05:08:35.510344+00:00"
+    },
+    {
       "commit": "c145b62454369e5bbc1145850951f06290d4f8c1",
       "tag": "",
       "parsed_at": "2026-11-06T02:36:03.729727+00:00"

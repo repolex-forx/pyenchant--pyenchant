@@ -36,16 +36,23 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── c145b62454369e5bbc1145850951f06290d4f8c1
+│   │   ├── c145b62454369e5bbc1145850951f06290d4f8c1
+│   │   │   └── chunk-001.nq.gz
+│   │   └── f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99.nq.gz
 │   └── repolex
-│       └── c145b62454369e5bbc1145850951f06290d4f8c1
+│       ├── c145b62454369e5bbc1145850951f06290d4f8c1
+│       │   └── chunk-001.nq.gz
+│       └── f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 0053649bfde5729b93d772d5be199deb2d2568e4.nq.gz
 │   ├── 0409554b767a5767409c3f5353176602e4838c60.nq.gz
 │   ├── 04d47b66f23e2c2b987519bf10590452926424d9.nq.gz
 │   ├── 05063287aa4ee10c32b671509daccd0e7206a640.nq.gz
+│   ├── 08af9e86e817c59c33e7d2b1fdc63422301465bf.nq.gz
 │   ├── 09b743964296bd586988cee50d4c10f6a2f9cca9.nq.gz
 │   ├── 0aba87898cd5cece8557b8e57b3ab1c0becf10ad.nq.gz
 │   ├── 0dad622aec2c9a1ea45738229e29b8ccd417ddf8.nq.gz
@@ -76,22 +83,29 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 72a23939150a9a10f2b908a0e83d18357f254263.nq.gz
 │   ├── 775ccde2cd35b7f8243443eec1b903eba712a395.nq.gz
 │   ├── 78c65961f06fee38bd100e1960403399b308954a.nq.gz
+│   ├── 7b7bf86e3fd75bbd715a354ce4499ae210a9a0b4.nq.gz
 │   ├── 7d53cd09980a75031d44d2788d81a53985ebfaa8.nq.gz
 │   ├── 84c0c33be53c99de59a5d9b90b6c930dd5d74173.nq.gz
 │   ├── 8c50219e6ac18f4aa6b0b508d0bbde86c72b9c51.nq.gz
 │   ├── 904fb32c1544c8351841d6428531363eacb2de1d.nq.gz
+│   ├── 923c321360294e1d5a66bd4fc01dc7b599b450fa.nq.gz
 │   ├── 9cdcd79d7d252abf83ad3a84fbf0781bca5501f2.nq.gz
 │   ├── 9dcc008949d7fe25a14e121df71228e4a848cbc1.nq.gz
 │   ├── 9df1cabe5a671a1ba11b7887b98c4ba8364d12d1.nq.gz
+│   ├── a2aa750cc23349d62e88eeab6db5e6f3d84b4944.nq.gz
 │   ├── acbb3c4dbe1a4dacf488e596636ce5d546d8246b.nq.gz
 │   ├── b0008afdd524610b0c94aa2fa44c7c61778815ad.nq.gz
 │   ├── b2347e1dda795d3cef4a5adb03d2b5c7894d2722.nq.gz
 │   ├── b4dc9505eff74c9cf668a37e9764234b171e1e95.nq.gz
+│   ├── bc6f1405b27ae2c1134d6f92194d4d50a9c4a360.nq.gz
+│   ├── bf399667955e6e87108778da126061965511f843.nq.gz
 │   ├── c10a6dbcd7d51e3b09c525371e9080a2aa103d57.nq.gz
+│   ├── c1a4cf5be9311922668008e2f1f7216158128ca8.nq.gz
 │   ├── c396a7f8fbb4cf888b9f8003dc43b2f58848b4dd.nq.gz
 │   ├── c3abecf4a6d5950feb0c8b00c09fdafd0aa10d61.nq.gz
 │   ├── c40e433d2b19c4b820a7493f5e2fb4f4c4b1d387.nq.gz
 │   ├── c41df4902b6e47708a738b40497efa7bbb7e12ed.nq.gz
+│   ├── c7b16fb5548b4c0bdf994a3f820481d2bb583e42.nq.gz
 │   ├── cb46abbbea5d4898554545f51436062540922674.nq.gz
 │   ├── cc65584b6a90c7fe5d91d6a82f43f3489b019bd2.nq.gz
 │   ├── cd8ef01cdf38a1acf205ab7b94ce53dedbfd5268.nq.gz
@@ -108,8 +122,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99.nq.gz
 ├── filetree
-│   └── c145b62454369e5bbc1145850951f06290d4f8c1.nq.gz
+│   ├── c145b62454369e5bbc1145850951f06290d4f8c1.nq.gz
+│   └── f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -117,7 +134,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 70 files
+17 directories, 83 files
 ```
 
 | Directory | What it contains |
@@ -138,4 +155,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [pyenchant/pyenchant](https://github.com/pyenchant/pyenchant)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
