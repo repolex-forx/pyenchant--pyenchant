@@ -1,0 +1,19 @@
+[2026-11-22T05:06:07Z] === ENRICH ITERATION 1 START | repo=pyenchant/pyenchant sha=f8b40fdf ===
+[2026-11-22T05:06:07Z] [iter=1] PHASE START: enrich repo=pyenchant/pyenchant sha=f8b40fdf runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f8b40fdf-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99.nq.gz
+[2026-11-22T05:06:07Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T05:06:12Z] [iter=1] AST store loaded triples=188320 load_secs=5 mem_mb=332 MB
+[2026-11-22T05:06:12Z] [iter=1] Step 2: Finding LSP targets mem_mb=332 MB
+[2026-11-22T05:06:12Z] [iter=1] LSP targets found call_sites=1277 imports=119 extends=19 implements=0 secs=0
+[2026-11-22T05:06:13Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=332 MB
+[2026-11-22T05:06:13Z] [iter=1] Position index built positions=13075 nodes_with_types=16838 secs=0 mem_mb=332 MB
+[2026-11-22T05:06:13Z] [iter=1] Step 3: Starting LSP resolution mem_mb=332 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T05:06:13Z] [iter=1] Resolving target type target_type=call_site count=1277
+[2026-11-22T05:06:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=15 resolved=814 errors=0 current=bootstrap.py
+[2026-11-22T05:06:45Z] [iter=1] Target type resolved target_type=call_site resolved=1007 errors=0 secs=32 mem_mb=332 MB
+[2026-11-22T05:06:45Z] [iter=1] Resolving target type target_type=import_statement count=119
+[2026-11-22T05:06:46Z] [iter=1] Target type resolved target_type=import_statement resolved=108 errors=0 secs=1 mem_mb=332 MB
+[2026-11-22T05:06:46Z] [iter=1] Resolving target type target_type=extends_clause count=19
+[2026-11-22T05:06:47Z] [iter=1] Target type resolved target_type=extends_clause resolved=19 errors=0 secs=1 mem_mb=332 MB
+[2026-11-22T05:07:05Z] [iter=1] Step 5: Writing final enrichment file triples=17363
+[2026-11-22T05:07:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f8b40fdf543dea52e043a89bfbd5d0e0b8ed3c99.nq.gz size_kb=330
+[2026-11-22T05:07:05Z] [iter=1] PHASE END: enrich elapsed_s=58 elapsed_min=1.0 total_triples=17363
